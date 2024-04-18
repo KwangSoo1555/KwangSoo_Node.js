@@ -1,20 +1,38 @@
-.leftmenu {
+.left_menu-wrapper {
     display: flex;
-    flex-direction: column;
+    width: 20%;
     height: 100%;
-    padding: 1em;
 }
 
-.leftmenu_margin {
+.left_menu {
+    flex: 1;
+}
+
+.left_menu_mainline {
     display: flex;
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
     height: 100%;
+    border-right: solid rgba(0, 0, 0, 0.1);
+}
+
+.mainline_box {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    padding: 1em 10em 1em 5em;
 }
 
 .top_tap {
     display: flex;
     width: auto;
     height: 15%;
+    padding-top: 3em;
     align-items: center;
     justify-content: center; 
 }
@@ -23,8 +41,7 @@
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 60%;
-    padding-bottom: 3em;
+    height: 70%;
     align-items: center;
     justify-content:space-evenly;
 }
@@ -34,9 +51,14 @@
     flex-direction: column;
     width: auto;
     height: 25%;
-    padding: 0 0 5em 0;
+    padding: 3em 0 3em 0;
     align-items: center;
     justify-content:space-evenly;
+}
+
+.left_menu_popupline {
+    display: flex;
+    height: 100%;
 }
 
 .button {
@@ -95,16 +117,21 @@
 
 .modal-dialog {
     display: flex;
-    width: 30em; /* Search_pop과 동일한 너비 */
-    height: 30em; /* Search_pop과 동일한 높이 */
-    background-color: red; /* Search_pop과 동일한 배경색 */
-    /* 추가적인 스타일 속성들을 여기에 추가하세요 */
+    width: 30em;
+    height: 30em;
+}
+
+.modal-content {
+    border-radius: 1.2em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    border: none;
+    outline: none;
 }
 
 .placeholder {
     color: #999;
-}
-
-.placeholder:focus:before {
-    content: '';
+    outline: none;
 }
