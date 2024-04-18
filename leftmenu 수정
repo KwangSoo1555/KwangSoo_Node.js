@@ -1,0 +1,137 @@
+.left_menu-wrapper {
+    display: flex;
+    width: 20%;
+    height: 100%;
+}
+
+.left_menu {
+    flex: 1;
+}
+
+.left_menu_mainline {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    border-right: solid rgba(0, 0, 0, 0.1);
+}
+
+.mainline_box {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    padding: 1em 10em 1em 5em;
+}
+
+.top_tap {
+    display: flex;
+    width: auto;
+    height: 15%;
+    padding-top: 3em;
+    align-items: center;
+    justify-content: center; 
+}
+
+.middle_tap {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 70%;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.bottom_tap {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 25%;
+    padding: 3em 0 3em 0;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.left_menu_popupline {
+    display: flex;
+    height: 100%;
+}
+
+.button {
+    cursor: pointer;
+}
+
+#button_main :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/174/174855.png')
+}
+
+#button_home :hover {
+    cursor: pointer;
+    content: url('https://cdn.icon-icons.com/icons2/2131/PNG/512/home_house_icon_131529.png')
+}
+
+#button_search :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/9454/9454253.png')
+}
+
+#button_explore :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/15049/15049617.png')
+}
+
+#button_reels :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/12595/12595820.png')
+}
+
+#button_DM :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/8096/8096260.png')
+}
+
+#button_heart :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/11677/11677186.png')
+}
+
+#button_add :hover {
+    cursor: pointer;
+    content: url('https://cdn-icons-png.flaticon.com/128/875/875119.png')
+}
+
+#button_profile :hover {
+    cursor: pointer;
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlG_3RAX42Eg-bQytsP3ptNfC_YoisT06TXA&usqp=CAU')
+}
+
+#button_setting :hover {
+    cursor: pointer;
+    content: url('data:image/png;base64,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')
+}
+
+.modal-dialog {
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+
+.modal-content {
+    border-radius: 1.2em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    border: none;
+    outline: none;
+}
+
+.placeholder {
+    color: #999;
+    outline: none;
+}
