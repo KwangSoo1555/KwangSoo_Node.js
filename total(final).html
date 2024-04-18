@@ -1,21 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>차분하조</title>
+
+    <title>calmgram</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/5cfbf3b586.js" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- <link rel="stylesheet" href="(main).css" type="text/css"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/yRBM2W9/free-icon-instagram-3579034.png">
 
     <style>
         @import "(reset).css";
         @import "(menu).css";
-        /* @import "(rightmenu).css"; */
+
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Nanum+Pen+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
     </style>
 </head>
 
@@ -23,44 +28,46 @@
 
     <!-- left -->
 
-    <div class="firtst_contents-wrapper">
+    <div class="first_contents-wrapper">
         <div class="wrapper left_menu-wrapper">
             <div class="left_menu mainline">
-                <div class="top_tap">
-                    <button class="button" id="button_main" title="인스타그램 홈페이지">
+                <div class="left_top_tap">
+
+                    <p class="calmgram">calmgram</p>
+
+                    <button id="button_main" title="인스타그램 홈페이지">
                         <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTlfMTk3%2FMDAxNjI2NjgzOTcxNDU5.ws0HSb-E5UjfrMLUYLmjE0EGec3jTgQoBBP1eegia2kg.A0I-8kXcWF0OLqxfJ5UPNaN5_EpzwOm3uHHUsX8ShTAg.PNG.kyungoh93%2F%25C0%25CE%25BD%25BA%25C5%25B8%25B1%25D7%25B7%25A5_%25B7%25CE%25B0%25ED_1920_02.png&type=sc960_832"
                             width="40px" height="40px" />
                     </button>
                 </div>
-                <div class="middle_tap">
-                    <button class="button" id="button_home" title="홈으로 이동">
+                <div class="left_middle_tap">
+                    <button id="button_home" title="홈으로 이동">
                         <img src="https://cdn-icons-png.flaticon.com/128/5948/5948524.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_search" title="검색">
+                    <button id="button_search" title="검색">
                         <img src="https://cdn-icons-png.flaticon.com/128/5948/5948534.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_explore" title="구글 탐색">
+                    <button id="button_explore" title="구글 탐색">
                         <img src="https://cdn-icons-png.flaticon.com/128/4406/4406266.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_reels" title="오늘의 릴스">
+                    <button id="button_reels" title="오늘의 릴스">
                         <img src="https://cdn-icons-png.flaticon.com/128/5948/5948543.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_DM" title="Direct Massage">
-                        <img src="https://cdn-icons-png.flaticon.com/128/10863/10863770.png" width="35px"
-                            height="35px" />
+                    <button id="button_DM" title="Direct Massage">
+                        <img src="https://cdn-icons-png.flaticon.com/128/10863/10863770.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_heart" title="좋아요">
+                    <button id="button_heart" title="좋아요">
                         <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_add" title="더보기">
+                    <button id="button_add" title="더보기">
                         <img src="https://cdn-icons-png.flaticon.com/512/6537/6537820.png" width="35px" height="35px" />
                     </button>
                 </div>
-                <div class="bottom_tap">
-                    <button class="button" id="button_profile" title="내 프로필">
+                <div class="left_bottom_tap">
+                    <button id="button_profile" title="내 프로필">
                         <img src="https://cdn-icons-png.flaticon.com/128/6098/6098434.png" width="35px" height="35px" />
                     </button>
-                    <button class="button" id="button_setting" title="설청">
+                    <button id="button_setting" title="설청">
                         <img src="https://cdn-icons-png.flaticon.com/128/15049/15049714.png" width="35px"
                             height="35px" />
                     </button>
@@ -92,72 +99,10 @@
         <!-- main -->
 
         <div class="wrapper main-wrapper">
-            <div class="mytitle">
-                <div class="mypro">
-                    <p> your_name </p>
-                </div>
-
-                <div class="myprofile">
-
-                </div>
-                <div class="likes">
-                    <button class="instagram-btn like-btn">
-                        <i class="fas fa-heart"></i>
-                    </button>
-                    <button class="instagram-btn comment-btn">
-                        <i class="fas fa-comment"></i>
-                    </button>
-                    <button class="instagram-btn send-btn">
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </div>
-                <div class="string">
-                    <h4>22,546 likes</h4>
-                    <h5>your_name &nbsp;&nbsp;
-                        <button id="mbtiButton" type="button" class="btn btn-link">#mbti</button>
-                        <button id="hobbyButton" type="button" class="btn btn-link">#hobby</button>
-                        <button id="introButton" type="button" class="btn btn-link">#introdece</button>
-                        <button id="goalButton" type="button" class="btn btn-link">#goal</button>
-                    </h5>
-                    <div id="mbti">
-                        <p>INFP 입니다.</p>
-                    </div>
-                    <div id="hobby">
-                        <p>취미는 무엇이요!</p>
-                    </div>
-                    <div id="introduce">
-                        <p>내 소개를 해보자고!</p>
-                    </div>
-                    <div id="goal">
-                        <p>내 목표는 무엇인가?</p>
-                    </div>
-
-                    <button id="replyButton" type="button" class="btn btn-light">View all <span id="countbtn">105</span>
-                        Comments</button>
-                    <div>
-
-                    </div>
-
-                    <div class="reply" id="reply">
-                        <div id="list" class="list-group"> </div>
-                        <div class="blank"> </div>
-                        <div class="nickname">
-                            <div class="col-md">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                        id="nickname"></textarea>
-                                    <label for="floatingTextarea">Nickname...</label>
-                                </div>
-                            </div>
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="comment"
-                                    style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Comments...</label>
-                            </div>
-                            <button id="postingBtn" type="button" class="btn btn-light">posting</button>
-                        </div>
-                    </div>
-                    <p class="date">2 days ago</p>
+            <div class="boxitem">
+                <p class="pro" style="font-size: 25px;">우리들은 차분하조</p>
+                <img height="500">
+                <div style="font-size: 25px; text-align: center;">
                 </div>
             </div>
         </div>
@@ -165,107 +110,112 @@
         <!-- right -->
 
         <div class="wrapper right_menu-wrapper">
-            <div id="sort" style="margin-top: 10px; ">
-                <div class="circle">
-                    <a href="https://www.instagram.com/spartacodingclub/"><img class="img-block"
-                            style="border-radius: 50%;"
-                            src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
-                            alt="..."></a>
-                </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> 차분하조 </h2>
-            </div>
-
-            <p>회원님을 위한 추천</p>
-
-
-            <div id="sort" style="margin-top: 10px;">
-                <div class="circle">
-                    <a href="https://www.instagram.com/99_sj.m/">
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
+            <div class="right_top_tap">
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://www.instagram.com/spartacodingclub/"><img class="img-block"
+                                style="border-radius: 50%;"
                                 src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
-                                alt="...">
-                            <img src="https://i.ibb.co/WDGN19J/a.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
+                                alt="..."></a>
+                    </div>
+                    <p class="calm"> 차분하조 </h2>
                 </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @99_sj.m </h2>
-
             </div>
-
-            <div id="sort">
-                <div class="circle">
-                    <a href=https://www.instagram.com/arumi729>
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
-                                src="https://search.pstatic.net/sunny/?src=http%3A%2F%2Fartmug.kr%2Fimage%2Fup_img%2Fdetail%2Fgoods_6476%2F16786031530.gif&type=sc960_832_gif"
-                                alt="...">
-                            <img src="https://i.ibb.co/tHFRwdX/b.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
-                </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @arumi729 </h2>
+            <div class="right_middle_tap">
+                <p calss="refer">회원님을 위한 추천<button onclick="tgl()" class="tgbtn"> 모두 보기</button></p>
             </div>
-
-            <div id="sort">
-                <div class="circle">
-                    <a href="https://www.instagram.com/wjdrbs2024/">
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
-                                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMDRfNzkg%2FMDAxNDgzNDY1NjYzNzU2.bg4w6I5AQi6x7fMey_PaaHUvKDaUfuvqJpP6lzxAgVgg.d6ARFMDTZK4heN4er1b333u8CQ4_dnNY4tlEBt401Mkg.JPEG.xenom%2F%25B5%25BF%25B9%25B0_%25BA%25B4%25BE%25C6%25B8%25AE_%25C6%25C4%25B6%25F5%25B8%25D3%25B8%25AE.jpg&type=sc960_832"
-                                alt="...">
-                            <img src="https://i.ibb.co/K9b04FW/c.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
+            <div class="right_bottom_tap">
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://blog.naver.com/moon_seungju">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
+                                    alt="...">
+                                <img src="https://i.ibb.co/WDGN19J/a.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @99_sj.m </h2>
+                    <div class="follow_button">
+                        <button class="two">팔로우</button>
+                    </div>
                 </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @wjdrbs2024</h2>
-            </div>
-
-            <div id="sort">
-                <div class="circle">
-                    <a href="https://www.instagram.com/sh_unning/">
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
-                                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjhfMzMg%2FMDAxNjMyNzkyODk2MDM3.6a-vcF3hVKF-wXJlypJFzACcRho32EfG437inB1lZ1Ig.CWrIh5dVUGVqJGHC1A2TXBJqmCRv533NkETEaoV7JPIg.PNG.huganism%2Fimage.png&type=sc960_832"
-                                alt="...">
-                            <img src="https://i.ibb.co/LZ9qmVQ/d.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://codingday.tistory.com/">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://search.pstatic.net/sunny/?src=http%3A%2F%2Fartmug.kr%2Fimage%2Fup_img%2Fdetail%2Fgoods_6476%2F16786031530.gif&type=sc960_832_gif"
+                                    alt="...">
+                                <img src="https://i.ibb.co/tHFRwdX/b.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @arumi729 </h2>
+                    <button class="two">팔로우</button>
                 </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @sh_unning </h2>
-            </div>
-
-            <div id="sort">
-                <div class="circle">
-                    <a href="https://www.instagram.com/ah_ma.do/">
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
-                                src="https://i.ibb.co/XyRPQb1/image-jip.jpg" alt="...">
-                            <img src="https://i.ibb.co/c1Xc9G4/e.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://blog.naver.com/remember38_">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMDRfNzkg%2FMDAxNDgzNDY1NjYzNzU2.bg4w6I5AQi6x7fMey_PaaHUvKDaUfuvqJpP6lzxAgVgg.d6ARFMDTZK4heN4er1b333u8CQ4_dnNY4tlEBt401Mkg.JPEG.xenom%2F%25B5%25BF%25B9%25B0_%25BA%25B4%25BE%25C6%25B8%25AE_%25C6%25C4%25B6%25F5%25B8%25D3%25B8%25AE.jpg&type=sc960_832"
+                                    alt="...">
+                                <img src="https://i.ibb.co/K9b04FW/c.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @wjdrbs2024</h2>
+                    <button class="two">팔로우</button>
                 </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @ah_ma.do </h2>
-            </div>
-
-            <div id="sort">
-                <div class="circle">
-                    <a href="https://www.instagram.com/buck_k_s/">
-                        <div class="jb-a">
-                            <img class="img-block" style="border-radius: 50%;"
-                                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MDJfMjU3%2FMDAxNjMwNTY0ODcwNTE3.VjgOeC-KG7iCDeITLNp7FR7lhMg4k7njqYmW_a5LEPAg.9KQ1kWRFlKVogdGM9lkb4BlDze0r-lNQZKvrPFw3yd8g.PNG.ricemuseum1%2F123.png&type=sc960_832"
-                                alt="...">
-                            <img src="https://i.ibb.co/QK2zSL3/f.png" alt="" class="jb-c" img class="img-block"
-                                style="border-radius: 50%;">
-                        </div>
-                    </a>
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://blog.naver.com/soobeing1803/223418907627">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjhfMzMg%2FMDAxNjMyNzkyODk2MDM3.6a-vcF3hVKF-wXJlypJFzACcRho32EfG437inB1lZ1Ig.CWrIh5dVUGVqJGHC1A2TXBJqmCRv533NkETEaoV7JPIg.PNG.huganism%2Fimage.png&type=sc960_832"
+                                    alt="...">
+                                <img src="https://i.ibb.co/LZ9qmVQ/d.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @sh_unning </h2>
+                    <button class="two">팔로우</button>
                 </div>
-                <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @buck_k_s </h2>
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://www.instagram.com/ah_ma.do/">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://i.ibb.co/XyRPQb1/image-jip.jpg" alt="...">
+                                <img src="https://i.ibb.co/c1Xc9G4/e.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @ah_ma.do </h2>
+                    <button class="two">팔로우</button>
+                </div>
+                <div class="sort">
+                    <div class="circle">
+                        <a href="https://www.instagram.com/buck_k_s/">
+                            <div class="jb-a">
+                                <img class="img-block" style="border-radius: 50%;"
+                                    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MDJfMjU3%2FMDAxNjMwNTY0ODcwNTE3.VjgOeC-KG7iCDeITLNp7FR7lhMg4k7njqYmW_a5LEPAg.9KQ1kWRFlKVogdGM9lkb4BlDze0r-lNQZKvrPFw3yd8g.PNG.ricemuseum1%2F123.png&type=sc960_832"
+                                    alt="...">
+                                <img src="https://i.ibb.co/QK2zSL3/f.png" alt="" class="jb-c" img class="img-block"
+                                    style="border-radius: 50%;">
+                            </div>
+                        </a>
+                    </div>
+                    <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @buck_k_s </h2>
+                    <button class="two">팔로우</button>
+                </div>
             </div>
         </div>
     </div>
@@ -514,6 +464,58 @@
         Reels.addEventListener('click', () => window.open('https://www.instagram.com/reels/'));
 
 
+    </script>
+
+    <script>
+        let url = "https://worldtimeapi.org/api/timezone/Asia/Seoul"
+        let setTime = 3;
+        /* 정규 표현식(특정한 규칙을 가진 문자열의 집합을 표현하는데 사용하는 형식 언어) */
+        var regex = /[^0-9]/g;
+
+        function First_Run() {
+            try {
+                /* fetch를 이용한 url 통신 */
+                fetch(url).then(res => res.json()).then(data => {
+                    /*datetime라는 이름의 데이터를 가져와서 regex형식의 기준으로 나눠 배열로 저장. 나눈 데이터를 
+                    문자열 양 끝의 공백을 제거하고 원본 문자열을 수정하지 않고 새로운 문자열을 반환 */
+                    let mise = data['datetime'].split(regex).map(x => x.trim());;
+                    /*문자열 변경*/
+                    $(".time").text(`${mise[0]}년 ${mise[1]}월 ${mise[2]}일 ${mise[3]}시 ${mise[4]}분`);
+                })
+            }
+            catch { $(".time").text("다시 연결중.."); }
+        }
+
+        function startInterval(seconds, callback) {
+            callback();
+            return setInterval(callback, seconds * 1000);
+        }
+
+        startInterval(setTime, First_Run);
+
+        function tgl() {
+            $('#nope').toggle();
+        }
+
+        $(document).ready(function () {
+            $('.tgbtn').click(function () {
+                if ($(this).html() == "모두보기") {
+                    $(this).css("color", "black")
+                    $(this).html('모두보기');
+                }
+                else { $(this).html('모두보기'); $(this).css("color", "black") }
+            })
+        });
+
+        $(document).ready(function () {
+            $('.two').click(function () {
+                if ($(this).html() == "팔로잉") {
+                    $(this).css("color", "rgb(18, 140, 255)")
+                    $(this).html('팔로우');
+                }
+                else { $(this).html('팔로잉'); $(this).css("color", "rgb(1, 20, 126)") }
+            })
+        });
     </script>
 </body>
 
