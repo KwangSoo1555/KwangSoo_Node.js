@@ -1,0 +1,237 @@
+<div class="wrapper main-wrapper">
+    <div class="mytitle">
+        <div class="mypro">
+            <p> your_name </p>
+        </div>
+
+        <div class="myprofile">
+
+        </div>
+        <div class="likes">
+            <button class="instagram-btn like-btn">
+                <i class="fas fa-heart"></i>
+            </button>
+            <button class="instagram-btn comment-btn">
+                <i class="fas fa-comment"></i>
+            </button>
+            <button class="instagram-btn send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        <div class="string">
+            <h4>22,546 likes</h4>
+            <h5>your_name &nbsp;&nbsp;
+                <button id="mbtiButton" type="button" class="btn btn-link">#mbti</button>
+                <button id="hobbyButton" type="button" class="btn btn-link">#hobby</button>
+                <button id="introButton" type="button" class="btn btn-link">#introdece</button>
+                <button id="goalButton" type="button" class="btn btn-link">#goal</button>
+            </h5>
+            <div id="mbti">
+                <p>INFP 입니다.</p>
+            </div>
+            <div id="hobby">
+                <p>취미는 무엇이요!</p>
+            </div>
+            <div id="introduce">
+                <p>내 소개를 해보자고!</p>
+            </div>
+            <div id="goal">
+                <p>내 목표는 무엇인가?</p>
+            </div>
+
+            <button id="replyButton" type="button" class="btn btn-light">View all <span id="countbtn">105</span>
+                Comments</button>
+            <div>
+
+            </div>
+
+            <div class="reply" id="reply">
+                <div id="list" class="list-group"> </div>
+                <div class="blank"> </div>
+                <div class="nickname">
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="nickname"></textarea>
+                            <label for="floatingTextarea">Nickname...</label>
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="comment"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments...</label>
+                    </div>
+                    <button id="postingBtn" type="button" class="btn btn-light">posting</button>
+                </div>
+            </div>
+            <p class="date">2 days ago</p>
+        </div>
+    </div>
+</div>
+
+
+.main-wrapper {
+    width: 600px;
+    height: auto;
+    display: flex;
+    margin-left: 25em;
+}
+
+.mytitle {
+    width: 600px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid;
+    background-color: white;
+}
+
+.likes {
+    padding-right: 20em;
+}
+
+/* 공통 인스타그램 버튼 스타일링 */
+.instagram-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    /* 아이콘 크기 */
+    padding: 10px;
+    /* 버튼 크기 조절 */
+    margin-right: 5px;
+    /* 버튼 간격 조절 */
+    color: #262626;
+    /* 버튼 색상 */
+}
+
+/* 좋아요 버튼 색상 변경 */
+.instagram-btn.like-btn {
+    color: red;
+}
+
+/* 댓글 버튼 색상 변경 */
+.instagram-btn.comment-btn {
+    color: #72b8eb;
+    /* 파란색 */
+}
+
+/* 전송 버튼 색상 변경 */
+.instagram-btn.send-btn {
+    color: #a6bcd2;
+    /* 파란색 */
+}
+
+.wrap {
+    display: flex;
+    width: auto;
+    padding: 5em 3em 0em 20em;
+}
+
+.myprofile {
+    width: 500px;
+    height: 500px;
+
+    color: white;
+    text-align: center;
+
+    background-image: url('https://img4.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202310/24/bemypet/20231024090024806qbul.jpg');
+    background-position: center;
+    background-size: cover;
+
+    margin: 15px 30px auto 30px;
+
+}
+
+.mypro {
+    width: 70px;
+    height: 70px;
+    background-image: url('https://img4.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202310/24/bemypet/20231024090024806qbul.jpg');
+    background-size: 70px 70px;
+    border-radius: 50%;
+
+    margin-left: 30px;
+    border: 2px solid;
+}
+
+.mypro>p {
+    font-size: 15pt;
+    font-weight: bold;
+    color: darkblue;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+/* 문자 위치 */
+/* your_name */
+.string>h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+
+    margin-right: 28px;
+}
+
+/* likes */
+.string>h4 {
+    margin-right: 403px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* replybutton */
+.string>button {
+    margin-right: 325px;
+}
+
+/* date string */
+.date {
+    margin-right: 423px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: #a6bcd2;
+}
+
+.mb-1 {
+    margin-right: 230px;
+}
+
+small {
+    margin-right: 230px;
+}
+
+.list-group {
+    margin-top: 30px;
+}
+
+#postingBtn {
+    margin-left: 470px;
+    margin-top: 15px;
+}
+
+.list-group a>button {
+    margin-left: 500px;
+
+    font-size: 0;
+    line-height: 0;
+}
+
+ /* 해시태그시 간격 */
+ #mbti{
+    padding-top: 15px;
+}
+#hobby{
+    padding-top: 15px;
+}
+#introduce{
+    padding-top: 15px;
+}
+#goal{
+    padding-top: 15px;
+}
+.blank{
+    width: 100%;
+    height: 20px
+}
